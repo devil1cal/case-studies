@@ -10,8 +10,8 @@
 }
 
 .main-box {
-  width: 50%;
-  height: 50%;
+  width: 20%;
+  height: auto;
   border: 1px solid red;
 }
 
@@ -19,7 +19,10 @@
   border: 1px solid blue;
 }
 
-.image-logo {}
+.image-logo {
+  width: 15%;
+  height: auto;
+}
 
 .parag-box {}
 
