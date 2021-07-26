@@ -3,11 +3,21 @@
   padding: 0;
 }
 
-.all-boxes {}
+.all-boxes {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+}
 
-.main-box {}
+.main-box {
+  width: 50%;
+  height: 50%;
+  border: 1px solid red;
+}
 
-.inside-box {}
+.inside-box {
+  border: 1px solid blue;
+}
 
 .image-logo {}
 
@@ -19,9 +29,21 @@
 
 .main-button {}
 
-.sec1, .sec2, .sec3 {}
+.sec1 {}
 
-.box1, .box2, .box3 {}
+.sec2, .sec3 {}
+
+.box1 {
+  background-color: #e38525;
+}
+
+.box2 {
+  background-color: #016871;
+}
+
+.box3 {
+  background-color: #003f3e;
+}
 
 .img1, .img2, .img3 {}
 
