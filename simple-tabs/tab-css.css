@@ -6,35 +6,72 @@
 .all-boxes {
   width: 100%;
   height: 100%;
-  border: 1px solid black;
+  margin: 0;
+  padding: 0;
 }
 
-.main-box {
-  width: 20%;
-  height: auto;
-  border: 1px solid red;
-}
+.main-box {}
 
 .inside-box {
-  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 210px;
+  height: auto;
+  margin: auto;
+  align-items: center;
+
 }
 
 .image-logo {
   width: 15%;
   height: auto;
+    padding-top: 10%;
 }
 
-.parag-box {}
+.parag-box {
+  width: 150px;
+  align-items: center;
+  color:#fff;
+  margin-top: 10%;
+}
 
-.main-parag {}
+.mainheader {
+  line-height: 1;
+  font-size: 19px;
+  font-weight: 400;
+  padding-bottom: 20px;
 
-.button-box {}
+}
 
-.main-button {}
+.main-parag {
+  line-height: 1;
+  font-size: 14px;
+  font-weight: 100;
+
+
+}
+
+.button-box {
+
+  margin-left:-26%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+
+
+
+}
+
+.main-button {
+  border:1px solid red;
+    border-radius: :50px 50px 0px 0px !important;
+}
 
 .sec1 {}
 
-.sec2, .sec3 {}
+.sec2 {}
+
+.sec3 {}
 
 .box1 {
   background-color: #e38525;
