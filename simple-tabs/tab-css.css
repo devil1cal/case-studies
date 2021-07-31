@@ -7,7 +7,8 @@
   width: 100%;
   height: 100%;
   margin: 0;
-  padding: 0;
+  padding-left:10%;
+
 }
 
 .main-box {}
@@ -15,63 +16,12 @@
 .inside-box {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   width: 210px;
   height: auto;
   margin: auto;
   align-items: center;
-
+  position: relative;
 }
-
-.image-logo {
-  width: 15%;
-  height: auto;
-    padding-top: 10%;
-}
-
-.parag-box {
-  width: 150px;
-  align-items: center;
-  color:#fff;
-  margin-top: 10%;
-}
-
-.mainheader {
-  line-height: 1;
-  font-size: 19px;
-  font-weight: 400;
-  padding-bottom: 20px;
-
-}
-
-.main-parag {
-  line-height: 1;
-  font-size: 14px;
-  font-weight: 100;
-
-
-}
-
-.button-box {
-
-  margin-left:-26%;
-  padding-top: 10%;
-  padding-bottom: 10%;
-
-
-
-}
-
-.main-button {
-  border:1px solid red;
-    border-radius: :50px 50px 0px 0px !important;
-}
-
-.sec1 {}
-
-.sec2 {}
-
-.sec3 {}
 
 .box1 {
   background-color: #e38525;
@@ -85,8 +35,102 @@
   background-color: #003f3e;
 }
 
+
+.image-logo {
+  width: 15%;
+  height: auto;
+  padding-top: 10%;
+}
+
+.parag-box {
+  width: 150px;
+  align-items: center;
+  color: #fff;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.mainheader {
+  line-height: 1;
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+
+.main-parag {
+  line-height: 1;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+/* buttom sections  */
+.button-box {
+  position: relative;
+}
+
+.main-button {
+  width: 115.5px;
+  height: 38.5px;
+  border-radius: 50px;
+  border: none;
+  margin-left: -30px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.but1 {
+  color: #e38525;
+  padding-bottom: 10%;
+  padding-top: 10%;
+}
+
+.but1 :hover {
+  background-color: #e38525;
+  color: #ffff;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  position: relative;
+  border: 1px solid #fff;
+  padding-bottom: 10%;
+  padding-top: 10%;
+}
+
+.but2 {
+  color: #016871;
+  padding-bottom: 10%;
+  padding-top: 10%;
+}
+
+.but2 :hover {
+  background-color: #016871;
+  color: #ffff;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  position: relative;
+  border: 1px solid #fff;
+  padding-bottom: 10%;
+  padding-top: 10%;
+}
+
+.but3 {
+  color: #003f3e;
+  padding-bottom: 10%;
+  padding-top: 10%;
+}
+
+.but3 :hover {
+  background-color: #003f3e;
+  color: #ffff;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  position: relative;
+  border: 1px solid #fff;
+  padding-bottom: 10%;
+  padding-top: 10%;
+}
+
+/* buttom sections  */
+
+
+
 .img1, .img2, .img3 {}
-
-.parag1, .parag2, .parag3 {}
-
-.but1, .but2, .but3 {}
