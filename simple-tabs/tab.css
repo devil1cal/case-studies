@@ -1,49 +1,60 @@
+@font-face {
+  font-family: "Big Shoulders Display";
+  src: url("./assets/fonts/BigShouldersDisplay-Regular.tff") format('truetype');
+}
+
+@font-face {
+  font-family: "Lexend Deca";
+  src: url("./assets/fonts/LexendDeca-Regular.tff") format('truetype');
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 
 .all-boxes {
-  margin: 0;
-  padding-left: 10%;
-  padding-top: 25px;
-  padding-bottom: 45px;
+  width: 375px;
+  height: 1502px;
+  background-color: hsl(0, 0%, 95%);
+  display: flex;
+  justify-content: center;
 }
-
-.main-box {}
 
 .inside-box {
   display: flex;
   flex-direction: column;
-  width: 210px;
-  height: auto;
-  margin: auto;
-  align-items: center;
   position: relative;
+  top: 90px;
+  bottom: 90px;
+  height: 443px;
+  width: 328px;
 }
 
 .box1 {
   border-radius: 5.5px 5.5px 0 0;
-  background-color: #e38525;
+  background-color: hsl(31, 77%, 52%);
 }
 
 .box2 {
-  background-color: #016871;
+  background-color: hsl(184, 100%, 22%);
 }
 
 .box3 {
-  background-color: #003f3e;
   border-radius: 0 0 5.5px 5.5px;
+  background-color: hsl(179, 100%, 13%);
 }
 
 /* image sections */
 .img-box {
-  width: 55px;
-  height: 55px;
-  margin-left: -100px;
-  margin-top: 20px;
+  width: auto;
+  height:auto;
+  margin-top:48px;
+  margin-bottom: 40px;
+  margin-left: 49px;
+  border:1px solid red;
 }
-
+/*
 .circle {
   height: 51px;
   width: 51px;
@@ -54,36 +65,25 @@
 }
 
 .cir1 {
-  background-color: #b46b1b;
+  background-color: #b46b1e;
 }
 
 .cir2 {
-  background-color: #02545c;
+  background-color: #02555b;
 }
 
 .cir3 {
-  background-color: #003530;
+  background-color: #023433;
 }
 
-.image-logo {
-  vertical-align: middle;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  margin-top: 5px;
-}
+
 
 .img-circle {
-  margin-left: 17.5px;
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
+  margin-left: 22px;
   display: inline-block;
   z-index: 1;
-  overflow: hidden;
-  background-position: center;
-  background-image: src=".\icons\pvp.png";
-}
+
+}*/
 
 .img1 {}
 
@@ -92,114 +92,122 @@
 .img3 {}
 
 /* image sections */
-.parag-box {
-  width: 150px;
-  align-items: center;
-  color: #fff;
-  margin-top: 10%;
-  margin-bottom: 10%;
+.mainheader {
+
+  width: auto;
+  height:auto;
+  margin-left: 49px;
+  margin-bottom: 40px;
+  border:1px solid red;
 }
 
-.mainheader {
-  line-height: 1;
-  font-size: 20px;
-  font-weight: 600;
-  padding-bottom: 30px;
+.mainheader h1{
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display";
+  font-weight: 700;
+  font-size: 23px;
+  text-transform: uppercase;
+  border:1px solid red;
+  margin: 0;
+
 }
+
+
+
+.parag-box {
+  height: 227px;
+  width: 228px;
+  border: 1px solid red;
+  position: relative;
+  color: #fff;
+  margin-bottom: 40px;
+  margin-left: 49px;
+  border:1px solid red;
+}
+
+
 
 .main-parag {
   line-height: 1;
-  font-size: 14px;
-  font-weight: 100;
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  font-size: 15px;
 }
 
 /* buttom sections  */
 .button-box {
+  width: auto;
+  height:auto;
+  border: 1px solid red;
   position: relative;
+  margin-bottom: 51px;
+  margin-left: 49px;
 }
 
 .main-button {
-  width: 115.5px;
-  height: 38.5px;
+  width: 148px;
+  height: 50px;
   border-radius: 50px;
   border: none;
-  margin-left: -30px;
   text-transform: capitalize;
-  font-weight: 600;
+  font-size: 15px;
+  color: hsl(0, 0%, 95%);
+  Weights: 400;
+  Family: "Lexend Deca";
 }
 
 .but1 {
   color: #e38525;
-  padding-bottom: 10%;
-  padding-top: 10%;
 }
 
 .but1 :hover {
   background-color: #e38525;
   color: #ffff;
-  padding-top: 10%;
-  padding-bottom: 10%;
   position: relative;
   border: 1px solid #fff;
-  padding-bottom: 10%;
-  padding-top: 10%;
 }
 
 .but2 {
   color: #016871;
-  padding-bottom: 10%;
-  padding-top: 10%;
 }
 
 .but2 :hover {
   background-color: #016871;
   color: #ffff;
-  padding-top: 10%;
-  padding-bottom: 10%;
   position: relative;
   border: 1px solid #fff;
-  padding-bottom: 10%;
-  padding-top: 10%;
 }
 
 .but3 {
   color: #003f3e;
-  padding-bottom: 10%;
-  padding-top: 10%;
 }
 
 .but3 :hover {
   background-color: #003f3e;
   color: #ffff;
-  padding-top: 10%;
-  padding-bottom: 10%;
   position: relative;
   border: 1px solid #fff;
-  padding-bottom: 10%;
-  padding-top: 10%;
 }
 
 /* buttom sections  */
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 981px) {
   .all-boxes {
-width: 100%;
-height: 100%;
-
+    width: 100%;
+    height: 100%;
   }
-  .row{
+
+  .row {
     width: 100%;
     height: 100;
     display: flex;
     align-items: center;
     justify-content: center;
-
   }
 
   .main-box {
     display: flex;
     flex-direction: row;
     float: left;
-
   }
 
   .inside-box {
