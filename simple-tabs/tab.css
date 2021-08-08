@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca&display=swap');
+
+/*
 @font-face {
   font-family: "Big Shoulders Display";
   src: url("./assets/fonts/BigShouldersDisplay-Regular.tff") format('truetype');
@@ -6,8 +9,7 @@
 @font-face {
   font-family: "Lexend Deca";
   src: url("./assets/fonts/LexendDeca-Regular.tff") format('truetype');
-}
-
+}*/
 * {
   margin: 0;
   padding: 0;
@@ -48,12 +50,12 @@
 /* image sections */
 .img-box {
   width: auto;
-  height:auto;
-  margin-top:48px;
+  height: auto;
+  margin-top: 48px;
   margin-bottom: 40px;
   margin-left: 49px;
-  border:1px solid red;
 }
+
 /*
 .circle {
   height: 51px;
@@ -84,7 +86,6 @@
   z-index: 1;
 
 }*/
-
 .img1 {}
 
 .img2 {}
@@ -93,52 +94,43 @@
 
 /* image sections */
 .mainheader {
-
   width: auto;
-  height:auto;
+  height: auto;
   margin-left: 49px;
   margin-bottom: 40px;
-  border:1px solid red;
 }
 
-.mainheader h1{
+.mainheader h1 {
   color: hsl(0, 0%, 95%);
-  font-family: "Big Shoulders Display";
+  font-family: 'Big Shoulders Display', cursive;
   font-weight: 700;
   font-size: 23px;
   text-transform: uppercase;
-  border:1px solid red;
   margin: 0;
-
+  letter-spacing: 4px;
 }
-
-
 
 .parag-box {
   height: 227px;
   width: 228px;
-  border: 1px solid red;
   position: relative;
   color: #fff;
   margin-bottom: 40px;
   margin-left: 49px;
-  border:1px solid red;
 }
 
-
-
 .main-parag {
-  line-height: 1;
-  font-family: "Lexend Deca";
+  line-height: 1.4;
+  font-family: 'Lexend Deca';
   font-weight: 400;
   font-size: 15px;
+  letter-spacing: 1px;
 }
 
 /* buttom sections  */
 .button-box {
   width: auto;
-  height:auto;
-  border: 1px solid red;
+  height: auto;
   position: relative;
   margin-bottom: 51px;
   margin-left: 49px;
@@ -153,7 +145,9 @@
   font-size: 15px;
   color: hsl(0, 0%, 95%);
   Weights: 400;
-  Family: "Lexend Deca";
+  font-family: 'Lexend Deca';
+  line-height: 1;
+  letter-spacing: 1px;
 }
 
 .but1 {
@@ -190,6 +184,8 @@
 }
 
 /* buttom sections  */
+
+
 @media screen and (min-width: 981px) {
   .all-boxes {
     width: 100%;
