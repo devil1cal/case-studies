@@ -14,21 +14,16 @@
   flex-direction: column;
   position: relative;
   width: 330px;
-  height: 785px;
+  height: auto;
   z-index: 1;
-
   border-radius: 15px;
   background-color: hsl(244, 38%, 16%);
   overflow: hidden;
   clear: both;
-  border:1px solid yellow;
-
 }
 
 .mainbox {
-left:35px;
-
-
+  left: 35px;
 }
 
 .image {
@@ -51,41 +46,42 @@ left:35px;
   opacity: .45;
 }
 
-.mainhead, .mainparag, .mainlist{
+.paragbox {
+  display: flex;
+  flex-direction: column;
+  margin-top: 46px;
+  margin-left: 35px;
+  margin-right: 34px;
+  margin-bottom: 42px;
+}
+
+.mainhead, .mainparag, .mainlist {
   text-align: center;
-  width: 290px;
   align-items: center;
-
-
-
 }
 
 .mainhead h2 {
-  border: 1px solid blue;
   color: hsl(0, 0%, 100%);
   font-family: "Inter";
   font-weight: 700;
 }
 
+.mainhead span {
+  color: hsl(277, 64%, 61%);
+}
+
 .mainparag p {
-  border: 1px solid blue;
   color: hsla(0, 0%, 100%, 0.75);
   font-family: "Lexend Deca";
   font-weight: 400;
-  letter-spacing: 1px;
   line-height: 2;
 }
 
-.mainlist {
-  border: 1px solid blue;
-}
+.mainlist {}
 
-.infocard {
-  border: 1px solid blue;
-}
+.infocard {}
 
 .infocard h2 {
-
   color: hsl(0, 0%, 100%);
   font-family: "Inter";
   font-weight: 700;
@@ -96,5 +92,4 @@ left:35px;
   font-family: "Lexend Deca";
   font-weight: 400;
   text-transform: uppercase;
-
 }
