@@ -23,12 +23,7 @@
   height: 1548px;
   background-color: hsl(0, 0%, 95%);
   margin: auto;
-
-
 }
-
-
-
 
 .inside-box {
   display: flex;
@@ -85,8 +80,6 @@
   background-color: #023433;
 }
 
-
-
 .img-circle {
   margin-left: 22px;
   display: inline-block;
@@ -105,7 +98,6 @@
   height: auto;
   margin-left: 49px;
   margin-bottom: 40px;
-
 }
 
 .mainheader h1 {
@@ -201,7 +193,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  
+
   }
 
   .row {

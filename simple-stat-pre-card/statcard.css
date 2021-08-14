@@ -93,3 +93,54 @@
   font-weight: 400;
   text-transform: uppercase;
 }
+
+@media screen and (min-width: 981px) {
+  .sectall {
+    width: 1110px;
+    height: 450px;
+  
+  }
+
+  .mainbox {}
+
+  .image {
+    width: 542px;
+    height: 448px;
+    float: right;
+    border-radius:  0;
+    background-image: url("image-header-desktop.jpg");
+  }
+
+  .image:after {
+    width: 542px;
+    height: 448px;
+  }
+
+  .mainhead, .mainparag, .mainlist {
+    display: flex;
+    flex-direction: row;
+
+    text-align: left;
+  }
+
+  .paragbox{
+    margin-left: 74px;
+  }
+
+  .mainhead{
+    letter-spacing: 1px;
+    line-height: 2px;
+    margin-right: 125px;
+
+  }
+  .mainparag{
+    margin-top:14px;
+    margin-right: 128px;}
+
+.infocard{
+  margin-top:26px;
+    margin-right: 45px;
+    justify-content: space-between;
+}
+
+}
