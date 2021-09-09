@@ -1,0 +1,55 @@
+//variables
+
+
+.red{
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  width: 310px;
+  height: 235px;
+  background-color: #2d3233;
+  border-radius: 15px;
+
+}
+//.progressbar_mainbox{ display: flex;justify-content: center;width: 200px;margin-left:6%;margin-right:5%;margin-top:18%;}
+//.proggressbar-container{width: 150px;margin-top:20px;}
+
+.wrapper-box{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 140px;
+  height: 150px;
+  margin-top:30px;
+
+   span{
+    // font-family: $font-text;
+     font-size: 19px;
+     font-weight: 400;
+     color: #ffffff;
+   }
+
+}
+
+.man2{
+  display:flex;
+  width: 110px;
+  height: 215px;
+  margin-top: -10px;
+  margin-left:-10px;
+
+}
+
+.button-styles{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top:20px;
+
+button{
+  border: none;
+  background: none;
+  color:white;
+  font-size: 15px;
+}
+}
