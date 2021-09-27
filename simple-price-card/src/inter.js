@@ -40,7 +40,7 @@ class SmartBox extends Component {
               <button
                 className="achieved"
                 onClick={() =>
-                  this.setState({ percentage: this.state.percentage - 1 })
+                  this.setState({ percentage: this.state.percentage - 20 })
                 }
               >
                 Achieved
@@ -48,7 +48,7 @@ class SmartBox extends Component {
               <button
                 className="active"
                 onClick={() =>
-                  this.setState({ percentage: this.state.percentage + 1 })
+                  this.setState({ percentage: this.state.percentage + 20 })
                 }
               >
                 Active
