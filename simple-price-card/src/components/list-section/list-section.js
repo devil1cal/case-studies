@@ -6,9 +6,9 @@ class ListSection extends Component {
   render() {
     return (
       <div className="list-box">
-    <IconCheck/> <span> Unlimited websites</span>
-    <IconCheck/> <span> 100% data ownership</span>
-    <IconCheck/> <span> Email reports</span>
+      <div className="iconpack firstp"> <IconCheck/> <span> Unlimited websites</span></div>
+      <div className="iconpack secp"> <IconCheck/> <span> 100% data ownership</span></div>
+      <div className="iconpack thirtp"> <IconCheck/> <span> Email reports</span></div>
       <div>
         <button>Start my trial</button>
       </div>
