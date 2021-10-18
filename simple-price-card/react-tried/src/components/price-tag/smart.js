@@ -2,6 +2,7 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 import propTypes from "prop-types";
+import "./smartbox.scss";
 //style
 
 

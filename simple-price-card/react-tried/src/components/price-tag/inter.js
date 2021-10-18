@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import styled from "styled-components";
 //components
 import ProgressBar from "./smart.js";
+import "./smartbox.scss";
 
 //style
 
